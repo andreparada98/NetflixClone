@@ -1,3 +1,39 @@
+:root{  /*Root permite declarar variaveis no CSS*/
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+*{ /* Reset do CSS para não dar conflito de navegadores */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: aliceblue;
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+
+header nav a:hover{
+    color: #fff;
 }
