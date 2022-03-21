@@ -37,3 +37,24 @@ header nav a{
 header nav a:hover{
     color: #fff;
 }
+
+/*Filmes Principal*/
+
+.filme-principal{
+    font-size: 16px;
+    height: 400px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-fundo2.jpg') ;
+    background-size: cover; /*Pega o tamanho da caixa*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+}
+
+.titulo{
+    font-size: 40px;
+}
